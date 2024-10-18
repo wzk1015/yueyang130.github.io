@@ -1,0 +1,85 @@
+#life {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 15px;
+}
+
+.life-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.life-entry {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-left: 20px;
+}
+
+.life-entry:hover {
+    background-color: rgb(255, 233, 157);
+    transform: scale(1.03);
+}
+
+.life-image {
+    flex-shrink: 0;
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+    margin-left: 20px;
+    transition: opacity 0.3s ease;
+}
+
+.life-image:hover {
+    opacity: 0.7;
+}
+
+.life-content {
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.life-content h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.life-description {
+    color: #666;
+    margin: 10px 0;
+}
+
+.life-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.life-link:hover {
+    color: #003d82;
+}
+
+@media (max-width: 768px) {
+    .life-entry {
+        flex-direction: column;
+    }
+
+    .life-image {
+        width: 100%;
+        margin-left: 0;
+    }
+}

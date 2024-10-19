@@ -4,6 +4,7 @@ import './Landing.css';
 // import focus2 from '../../img/focus2.png'; // Hover image
 import focus from '../../img/person.jpeg'; // Default image
 import focus2 from '../../img/person2.jpg'; // Default image
+import focus3 from '../../img/person3.jpg'; // Default image
 
 import { FULL_NAME, SOCIAL_LINKS } from '../../Util/data';
 
@@ -41,7 +42,8 @@ const Landing = () => {
             </div>
             <div className="image-container">
                 <img src={focus} alt="Yang Yue" className="default-image" />
-                <img src={focus2} alt="Yang Yue Hover" className="hover-image" />
+                {/* <img src={focus2} alt="Yang Yue Hover" className="hover-image" /> */}
+                <img src={focus3} alt="Yang Yue Hover" className="hover-image" />
             </div>
         </section>
     );

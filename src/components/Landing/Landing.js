@@ -1,7 +1,10 @@
 import React from "react";
 import './Landing.css';
-import focus from '../../img/focus.png'; // Default image
-import focus2 from '../../img/focus2.png'; // Hover image
+// import focus from '../../img/focus.png'; // Default image
+// import focus2 from '../../img/focus2.png'; // Hover image
+import focus from '../../img/person.jpeg'; // Default image
+import focus2 from '../../img/person2.jpg'; // Default image
+
 import { FULL_NAME, SOCIAL_LINKS } from '../../Util/data';
 
 const Landing = () => {

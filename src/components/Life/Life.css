@@ -20,6 +20,8 @@
     overflow: hidden;
     transition: background-color 0.3s ease, transform 0.3s ease;
     margin-left: 20px;
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Ensure text color is inherited */
 }
 
 .life-entry:hover {

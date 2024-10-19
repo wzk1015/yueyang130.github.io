@@ -34,7 +34,7 @@ export const SOCIAL_LINKS = [
     {
         name: "Google Scholar",
         icon: "fas fa-graduation-cap",
-        link: "https://scholar.google.com/citations?user=tE1oVQ4AAAAJ&hl=zh-TW",
+        link: "https://scholar.google.com/citations?user=tE1oVQ4AAAAJ&hl=zh",
         showText: false
     },
     {
@@ -215,7 +215,7 @@ export const LIFE_ACTIVITIES = [
         description: "I love soccer and play as a midfielder. I also serve as the captain of the men's football team for the Department of Automation.",
         image: soccer_img,
         // image: soccer2_img,
-        link: "https://mp.weixin.qq.com/s/_NZer3veFtPJixItawqXYg"
+        link: "https://mp.weixin.qq.com/s/BYEamDPgS9FkJTYyquDNXg"
     },
     // Add more life activities here
 ];

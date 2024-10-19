@@ -11,18 +11,23 @@ const Life = () => {
             </h1>
             <div className="life-grid">
                 {LIFE_ACTIVITIES.map(activity => (
-                    <div key={activity.id} className="life-entry">
-                        <img src={activity.image} alt={activity.name} className="life-image" />
-                        <div className="life-content">
-                            <h2>{activity.name}</h2>
-                            <p className="life-description">{activity.description}</p>
-                            {activity.link && (
-                                <a href={activity.link} rel="noopener noreferrer" target="_blank" className="life-link">
-                                    Activity Record
-                                </a>
-                            )}
+                    activity.link ? (
+                        <a href={activity.link} rel="noopener noreferrer" target="_blank" key={activity.id} className="life-entry">
+                            <img src={activity.image} alt={activity.name} className="life-image" />
+                            <div className="life-content">
+                                <h2>{activity.name}</h2>
+                                <p className="life-description">{activity.description}</p>
+                            </div>
+                        </a>
+                    ) : (
+                        <div key={activity.id} className="life-entry">
+                            <img src={activity.image} alt={activity.name} className="life-image" />
+                            <div className="life-content">
+                                <h2>{activity.name}</h2>
+                                <p className="life-description">{activity.description}</p>
+                            </div>
                         </div>
-                    </div>
+                    )
                 ))}
             </div>
         </section>

@@ -1,14 +1,13 @@
-import dmotion from '../assets/dmotion.gif';
-import moss from '../assets/moss.png';
-import gfucb from '../assets/gfucb.png';
-import expel from '../assets/expel.png';
-import recon from '../assets/recon.png';
-import seg from '../assets/seg.png';
-import diverct from '../assets/diverct.png';
-import motion from '../assets/motion.png';
-import sr from '../assets/sr.png';
+import deer from '../assets/deer.jpg';
+import seem from '../assets/seem.png';
+import law from '../assets/physical_law.jpg';
+import surgery from '../assets/surgery.jpg';
+import vcr from '../assets/vcr.jpg';
+import benchmark from '../assets/benchmark.jpg';
+import red from '../assets/red.jpg';
+import odpr from '../assets/odpr.jpg';
 import soccer_img from '../assets/soccer.jpg';
-import soccer2_img from '../assets/soccer2.jpg';
+// import soccer2_img from '../assets/soccer2.jpg';
 
 export const FULL_NAME = "Yang Yue 乐洋";
 export const RESUME_LINK = "https://Andrewzh112.github.io/resume/resume.pdf";
@@ -60,133 +59,120 @@ export const NEWS = [
 ];
 
 export const FEATUREDPUBLICATIONS = [
-    // {
-    //     id: 4,
-    //     name: "DiveR-CT: Diversity-enhanced Red Teaming with Relaxing Constraints",
-    //     journal: "arXiv Preprint",
-    //     date: "May 2024",
-    //     authors: "Andrew Zhao, Quentin Xu, Matthieu Lin, Shenzhi Wang, Yong-jin Liu, Zilong Zheng, Gao Huang",
-    //     link: "https://arxiv.org/abs/2405.19026",
-    //     image: diverct,
-    //     projectPage: "https://andrewzh112.github.io/#diverct"
-    // },
-    // {
-    //     id: 3,
-    //     name: "ExpeL: LLM Agents are Experiential Learners",
-    //     journal: "Thirty-Eighth AAAI Conference on Artificial Intelligence (AAAI 2024) (Oral)",
-    //     date: "Aug 2023",
-    //     authors: "Andrew Zhao, Daniel Huang, Quentin Xu, Matthieu Lin, Yong-Jin Liu, Gao Huang",
-    //     link: "https://arxiv.org/abs/2308.10144",
-    //     image: expel,
-    //     code: "https://github.com/LeapLabTHU/ExpeL",
-    //     projectPage: "https://andrewzh112.github.io/#expel"
-    // },
-    // {
-    //     id: 2,
-    //     name: "Augmenting Unsupervised Reinforcement Learning with Self-Reference",
-    //     journal: "arXiv Preprint",
-    //     date: "Nov 2023",
-    //     authors: "Andrew Zhao, Erle Zhu, Rui Lu, Matthieu Lin, Yong-Jin Liu, Gao Huang",
-    //     link: "https://arxiv.org/abs/2311.09692",
-    //     image: sr,
-    // },
-    // {
-    //     id: 1,
-    //     name: "HOW FAR IS VIDEO GENERATION FROM WORLD MODEL: A PHYSICAL LAW PERSPECTIVE",
-    //     journal: "arXiv Preprint",
-    //     date: "Oct 2024",
-    //     authors: "Bingyi Kang, Yang Yue, Rui Lu, Zhijie Lin, Yang Zhao, Kaixin Wang, Gao Huang, Jiashi Feng ",
-    //     link: "https://openreview.net/forum?id=ZyLkNVHBZF",
-    //     // image: moss, // Optional
-    //     // code: "https://github.com/LeapLabTHU/MOSS", // Optional
-    //     // projectPage: "https://example.com/projects/project1" // Optional
-    // },
+    {
+        id: 1,
+        name: "HOW FAR IS VIDEO GENERATION FROM WORLD MODEL: A PHYSICAL LAW PERSPECTIVE",
+        journal: "arXiv Preprint",
+        date: "Oct 2024",
+        authors: "Bingyi Kang*, Yang Yue* (Equal Contribution in alphabetical order), Rui Lu, Zhijie Lin, Yang Zhao, Kaixin Wang, Gao Huang, Jiashi Feng ",
+        image: law, // Optional
+        // link: "https://openreview.net/forum?id=ZyLkNVHBZF",
+        // code: "https://github.com/LeapLabTHU/MOSS", // Optional
+        // projectPage: "https://example.com/projects/project1" // Optional
+    },
+    {
+        name: "DeeR-VLA: Dynamic Inference of Multimodal Large Language Models for Efficient Robot Execution",
+        journal: "Advances in Neural Information Processing Systems (NeurIPS), 2024",
+        date: "Sep 2024",
+        authors: "Yang Yue*, Yulin Wang*, Bingyi Kang, Yizeng Han, Shenzhi Wang, Shiji Song, Jiashi Feng, Gao Huang",
+        image: deer,
+        code: "https://github.com/yueyang130/DeeR-VLA",
+        // projectPage: "https://andrewzh112.github.io/#expel"
+    },
+    {
+        name: "Understanding, Predicting and Better Resolving Q-Value Divergence in Offline-RL",
+        journal: "Advances in Neural Information Processing Systems (NeurIPS), 2023",
+        date: "Sep 2023",
+        authors: "Yang Yue*, Rui Lu*, Bingyi Kang*, Shiji Song, Gao Huang",
+        image: seem,
+        link: "https://arxiv.org/abs/2310.04411",
+        code: "https://github.com/yueyang130/SEEM/",
+        projectPage: "https://offrl-seem.github.io/"
+    },
+    {
+        name: "Value-consistent Representation Learning for Data-Efficient Reinforcement Learning",
+        journal: "hirty-Eighth AAAI Conference on Artificial Intelligence (AAAI 2023) (Oral)",
+        date: "Jun 2022",
+        authors: "Yang Yue, Bingyi Kang, Zhongwen Xu, Gao Huang, Shuicheng Yan",
+        image: vcr,
+        link: "https://arxiv.org/abs/2206.12542",
+    },
 ]
 
 export const PUBLICATIONS = [
-    // {
-    //     id: 8,
-    //     name: "DiveR-CT: Diversity-enhanced Red Teaming with Relaxing Constraints",
-    //     journal: "arXiv Preprint",
-    //     date: "May 2024",
-    //     authors: "Andrew Zhao, Quentin Xu, Matthieu Lin, Shenzhi Wang, Yong-jin Liu, Zilong Zheng, Gao Huang",
-    //     link: "https://arxiv.org/abs/2405.19026",
-    //     image: diverct,
-    //     projectPage: "https://andrewzh112.github.io/#diverct"
-    // },
-    // {
-    //     id: 7,
-    //     name: "Exploring Temporal Feature Correlation for Efficient and Stable Video Semantic Segmentation",
-    //     journal: "Thirty-Eighth AAAI Conference on Artificial Intelligence (AAAI 2024)",
-    //     date: "Oct 2023",
-    //     authors: "Matthieu Lin, Jenny Sheng, Yubin Hu, Yangguang Li, Lu Qi, Andrew Zhao, Gao Huang, Yong-Jin Liu",
-    //     link: "https://ojs.aaai.org/index.php/AAAI/article/view/28132",
-    //     image: seg,
-    // },
-    // {
-    //     id: 6,
-    //     name: "Exploring Temporal Feature Correlation for Efficient and Stable Video Semantic Segmentation",
-    //     journal: "CVPR 2024 Human Motion Generation (HuMoGen) Workshop",
-    //     date: "April 2024",
-    //     authors: "Jenny Sheng, Matthieu Lin, Andrew Zhao, Kevin Pruvost, Yu-Hui Wen, Yangguang Li, Gao Huang, Yong-Jin Liu",
-    //     link: "https://arxiv.org/abs/2404.09445",
-    //     image: motion,
-    // },
-    // {
-    //     id: 5,
-    //     name: "Avalon's Game of Thoughts: Battle Against Deception through Recursive Contemplation",
-    //     journal: "Findings of the Association for Computational Linguistics: ACL 2024",
-    //     date: "Oct 2023",
-    //     authors: "Shenzhi Wang, Chang Liu, Zilong Zheng, Siyuan Qi, Shuo Chen, Qisen Yang, Andrew Zhao, Chaofei Wang, Shiji Song, Gao Huang",
-    //     link: "https://arxiv.org/abs/2310.01320",
-    //     image: recon,
-    //     // code: "https://github.com/username/project1",
-    //     // projectPage: "https://example.com/projects/project1"
-    // },
-    // {
-    //     id: 4,
-    //     name: "ExpeL: LLM Agents are Experiential Learners",
-    //     journal: "Thirty-Eighth AAAI Conference on Artificial Intelligence (AAAI 2024) (Oral)",
-    //     date: "Aug 2023",
-    //     authors: "Andrew Zhao, Daniel Huang, Quentin Xu, Matthieu Lin, Yong-Jin Liu, Gao Huang",
-    //     link: "https://arxiv.org/abs/2308.10144",
-    //     image: expel,
-    //     code: "https://github.com/LeapLabTHU/ExpeL",
-    //     projectPage: "https://andrewzh112.github.io/#expel"
-    // },
-    // {
-    //     id: 3,
-    //     name: "A Mixture Of Surprises for Unsupervised Reinforcement Learning",
-    //     journal: "36th Conference on Neural Information Processing Systems (NeurIPS 2022)",
-    //     date: "Oct 2022",
-    //     authors: "Andrew Zhao, Matthieu Lin, Yangguang Li, Yong-jin Liu, Gao Huang",
-    //     link: "https://proceedings.neurips.cc/paper_files/paper/2022/hash/a7667ee5d545a43d2f0fda98863c260e-Abstract-Conference.html",
-    //     image: moss, // Optional
-    //     code: "https://github.com/LeapLabTHU/MOSS", // Optional
-    //     // projectPage: "https://example.com/projects/project1" // Optional
-    // },
-    // {
-    //     id: 2,
-    //     name: "Provable General Function Class Representation Learning in Multitask Bandits and MDP",
-    //     journal: "36th Conference on Neural Information Processing Systems (NeurIPS 2022) (Spotlight)",
-    //     date: "Oct 2022",
-    //     authors: "Rui Lu, Andrew Zhao, Simon S Du, Gao Huang",
-    //     link: "https://proceedings.neurips.cc/paper_files/paper/2022/hash/4b121e627d3c5683f312ad168988f3f0-Abstract-Conference.html",
-    //     image: gfucb, // Optional
-    //     // code: "https://github.com/LeapLabTHU/MOSS", // Optional
-    //     // projectPage: "https://example.com/projects/project1" // Optional
-    // },
-    // {
-    //     id: 1,
-    //     name: "DMotion: Robotic Visuomotor Control with Unsupervised Forward Model Learned from Videos",
-    //     journal: "2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
-    //     date: "Sep 2021",
-    //     authors: "Haoqi Yuan, Ruihai Wu, Andrew Zhao, Haipeng Zhang, Zihan Ding, Hao Dong",
-    //     link: "https://ieeexplore.ieee.org/abstract/document/9636362/",
-    //     image: dmotion, // Optional
-    //     // code: "https://github.com/username/project1", // Optional
-    //     // projectPage: "https://example.com/projects/project1" // Optional
-    // },
+    {
+        id: 1,
+        name: "HOW FAR IS VIDEO GENERATION FROM WORLD MODEL: A PHYSICAL LAW PERSPECTIVE",
+        journal: "arXiv Preprint",
+        date: "Oct 2024",
+        authors: "Bingyi Kang*, Yang Yue* (Equal Contribution in alphabetical order), Rui Lu, Zhijie Lin, Yang Zhao, Kaixin Wang, Gao Huang, Jiashi Feng ",
+        image: law, // Optional
+        // link: "https://openreview.net/forum?id=ZyLkNVHBZF",
+        // code: "https://github.com/LeapLabTHU/MOSS", // Optional
+        // projectPage: "https://example.com/projects/project1" // Optional
+    },
+    {
+        name: "DeeR-VLA: Dynamic Inference of Multimodal Large Language Models for Efficient Robot Execution",
+        journal: "Advances in Neural Information Processing Systems (NeurIPS), 2024",
+        date: "Sep 2024",
+        authors: "Yang Yue*, Yulin Wang*, Bingyi Kang, Yizeng Han, Shenzhi Wang, Shiji Song, Jiashi Feng, Gao Huang",
+        image: deer,
+        code: "https://github.com/yueyang130/DeeR-VLA",
+        // projectPage: "https://andrewzh112.github.io/#expel"
+    },
+    {
+        name: "Model Surgery: Modulating LLM's Behavior Via Simple Parameter Editing",
+        journal: "arXiv Preprint",
+        date: "Jul 2024",
+        authors: "Huanqian Wang*, Yang Yue*, Rui Lu, Jingxin Shi, Andrew Zhao, Shenzhi Wang, Shiji Song, Gao Huang",
+        image: surgery,
+        link: "https://arxiv.org/pdf/2407.08770",
+        code: "https://github.com/lucywang720/model-surgery",
+    },
+    {
+        name: "Understanding, Predicting and Better Resolving Q-Value Divergence in Offline-RL",
+        journal: "Advances in Neural Information Processing Systems (NeurIPS), 2023",
+        date: "Sep 2023",
+        authors: "Yang Yue*, Rui Lu*, Bingyi Kang*, Shiji Song, Gao Huang",
+        image: seem,
+        link: "https://arxiv.org/abs/2310.04411",
+        code: "https://github.com/yueyang130/SEEM/",
+        projectPage: "https://offrl-seem.github.io/"
+    },
+    {
+        name: "Decoupled Prioritized Resampling for Offline RL",
+        journal: "arXiv Preprint",
+        date: "Jun 2023",
+        authors: "Yang Yue, Bingyi Kang, Xiao Ma, Qisen Yang, Gao Huang, Shiji Song, Shuicheng Yan",
+        image: odpr,
+        link: "https://arxiv.org/abs/2306.05412",
+        code: "https://github.com/yueyang130/ODPR",
+    },
+    {
+        name: "Improving and benchmarking offline reinforcement learning algorithms",
+        journal: "arXiv Preprint",
+        date: "Jun 2023",
+        authors: "Bingyi Kang, Xiao Ma, Yirui Wang, Yang Yue, Shuicheng Yan",
+        image: benchmark,
+        link: "https://arxiv.org/pdf/2306.00972",
+        code: "https://github.com/sail-sg/offbench",
+    },
+    {
+        name: "Boosting Offline Reinforcement Learning via Data Rebalancing",
+        journal: "Advances in Neural Information Processing Systems (NeurIPS), 2022, Offline RL Workshop",
+        date: "Oct 2022",
+        authors: "Yang Yue, Bingyi Kang, Xiao Ma, Zhongwen Xu, Gao Huang, Shuicheng Yan",
+        image: red,
+        link: "https://arxiv.org/pdf/2210.09241",
+    },
+    {
+        name: "Value-consistent Representation Learning for Data-Efficient Reinforcement Learning",
+        journal: "hirty-Eighth AAAI Conference on Artificial Intelligence (AAAI 2023) (Oral)",
+        date: "Jun 2022",
+        authors: "Yang Yue, Bingyi Kang, Zhongwen Xu, Gao Huang, Shuicheng Yan",
+        image: vcr,
+        link: "https://arxiv.org/abs/2206.12542",
+    },
 ];
 
 export const SERVICES = [
@@ -213,12 +199,12 @@ export const ABOUT_TEXT = `
 <p>I am a third-year Ph.D. candidate in the Department of Automation at Tsinghua University, supervised by Prof. <a href='https://www.gaohuang.net/' target='_blank' rel='noopener noreferrer'>Gao Huang</a>.
 I earned my bachelor's degree in Computer Science in 2022, and during my undergraduate years, I also studied Electrical Engineering.
 Previously, I interned at Sea AI Lab Singapore for over a year, working under the guidance of Prof. <a href='https://yanshuicheng.info/' target='_blank' rel='noopener noreferrer'>Shuicheng Yan</a> and collaborating closely with <a href='https://bingykang.github.io/' target='_blank' rel='noopener noreferrer'>Bingyi Kang</a>.</p>
-<p>My research primarily focuses on developing AI generalist decision-making systems. My expertise spans the following areas:</p>
+<p>My research primarily focuses on developing AI generalist decision-making systems. My interests include:</p>
 <ul>
-    <li>Reinforcement Learning for skill acquisition and self-improvement</li>
-    <li>Multimodal LLMs for generalized perception and advanced reasoning</li>
-    <li>World Models for planning and scalable data generation</li>
-    <li>Embodied AI for real-world interactions and applications</li>
+    <li><span style="color: #4CAF50; background-color: #E8F5E9; padding: 2px 4px; border-radius: 3px;">Reinforcement Learning</span> for skill acquisition and self-improvement</li>
+    <li><span style="color: #4CAF50; background-color: #E8F5E9; padding: 2px 4px; border-radius: 3px;">Multimodal LLMs</span> for generalized perception and advanced reasoning</li>
+    <li><span style="color: #4CAF50; background-color: #E8F5E9; padding: 2px 4px; border-radius: 3px;">World Models</span> for planning and scalable data generation</li>
+    <li><span style="color: #4CAF50; background-color: #E8F5E9; padding: 2px 4px; border-radius: 3px;">Embodied AI</span> for real-world interactions and applications</li>
 </ul>
 `
 

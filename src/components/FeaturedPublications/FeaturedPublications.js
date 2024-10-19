@@ -26,14 +26,20 @@ const highlightText = (text) => {
 
 const formatAuthors = (authors) => {
   return authors.split(', ').map((author, index, array) => {
-    const isBold = author === "Andrew Zhao";
-    const needsComma = index !== array.length - 1;
+      const isBold = author.includes("Yang Yue");
+      const needsComma = index !== array.length - 1;
 
-    return (
-      <span key={index} style={{ fontWeight: isBold ? 'bold' : 'normal' }}>
-        {author}{needsComma ? ', ' : ''}
-      </span>
-    );
+      return (
+          <span 
+              key={index} 
+              style={{ 
+                  fontWeight: isBold ? 'bold' : 'normal', 
+                  color: isBold ? 'black' : 'inherit' // Use black color if isBold
+              }}
+          >
+              {author}{needsComma ? ', ' : ''}
+          </span>
+      );
   });
 };
 

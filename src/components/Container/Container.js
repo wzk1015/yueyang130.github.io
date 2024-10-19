@@ -7,6 +7,7 @@ import Publications from "../Publications/Publications";
 import FeaturedPublications from "../FeaturedPublications/FeaturedPublications";
 import Services from '../Services/Services';
 import Life from '../Life/Life';
+import VisitorMap from '../VisitorMap/VisitorMap';
 
 const Container = () => {
     return (
@@ -18,6 +19,7 @@ const Container = () => {
             <Publications />
             <Services />
             <Life />
+            <VisitorMap />
         </div>
     );
 };

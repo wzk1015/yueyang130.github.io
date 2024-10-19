@@ -19,16 +19,8 @@ const Services = () => {
                             <p className="talk-description" dangerouslySetInnerHTML={{ __html: service.description }}></p>
                         )}
                         {service.link && (
-                            <a 
-                                href={service.link} 
-                                target="_blank" 
-                                rel="noopener noreferrer"
-                                onClick={(e) => {
-                                    e.preventDefault();
-                                    window.open(service.link, '_blank', 'noopener,noreferrer');
-                                }}
-                            >
-                                <i className="fas fa-external-link-alt"></i> Talk Video
+                            <a href={service.link} rel="noopener noreferrer" target="_blank" className="service-link">
+                                Activity Record
                             </a>
                         )}
                     </div>

@@ -192,7 +192,7 @@ export const PUBLICATIONS = [
 export const SERVICES = [
     {
         title: "Conference Reviewers",
-        description: "ICML 2023<br> NeurIPS 2023, 2024<br>",
+        description: "ICML 2023<br> NeurIPS 2023<br>NeurIPS 2024<br>",
     },
     {
         title: "Value-Consistent Representation Learning for Data-Efficient Reinforcement Learning",
@@ -204,7 +204,8 @@ export const SERVICES = [
         title: "Understanding Predicting and Better Resolving Value Divergence",
         date: "January 2024",
         venue: "ReadPaper Invited Talk",
-        link: "https://www.bilibili.com/video/BV1LK411Y7Tc/?vd_source=75411458a4aa446f7fbc441211e20421#reply204791770480",
+        // description: "Presented by Rui Lu, featuring collaborative work between both of us.",
+        // link: "https://www.bilibili.com/video/BV1LK411Y7Tc/?vd_source=75411458a4aa446f7fbc441211e20421#reply204791770480",
     },
 ];
 
